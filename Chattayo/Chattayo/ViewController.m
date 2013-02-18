@@ -26,4 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)etomigo:(UIButton *)sender {
+    
+    NSLog(@"samalat sa moon bulacs");
+    
+}
 @end
