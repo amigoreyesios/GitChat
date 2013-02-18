@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84ECF62F16D25E1D004ABB0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECF62E16D25E1D004ABB0A /* UIKit.framework */; };
+		84ECF63116D25E1D004ABB0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECF63016D25E1D004ABB0A /* Foundation.framework */; };
+		84ECF63316D25E1D004ABB0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECF63216D25E1D004ABB0A /* CoreGraphics.framework */; };
+		84ECF63916D25E1D004ABB0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84ECF63716D25E1D004ABB0A /* InfoPlist.strings */; };
+		84ECF63B16D25E1D004ABB0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ECF63A16D25E1D004ABB0A /* main.m */; };
+		84ECF63F16D25E1D004ABB0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ECF63E16D25E1D004ABB0A /* AppDelegate.m */; };
+		84ECF64116D25E1D004ABB0A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ECF64016D25E1D004ABB0A /* Default.png */; };
+		84ECF64316D25E1D004ABB0A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ECF64216D25E1D004ABB0A /* Default@2x.png */; };
+		84ECF64516D25E1D004ABB0A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ECF64416D25E1D004ABB0A /* Default-568h@2x.png */; };
+		84ECF64816D25E1D004ABB0A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ECF64616D25E1D004ABB0A /* MainStoryboard.storyboard */; };
+		84ECF64B16D25E1D004ABB0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ECF64A16D25E1D004ABB0A /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84ECF62B16D25E1D004ABB0A /* Chattayo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chattayo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84ECF62E16D25E1D004ABB0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84ECF63016D25E1D004ABB0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84ECF63216D25E1D004ABB0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84ECF63616D25E1D004ABB0A /* Chattayo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chattayo-Info.plist"; sourceTree = "<group>"; };
+		84ECF63816D25E1D004ABB0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84ECF63A16D25E1D004ABB0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84ECF63C16D25E1D004ABB0A /* Chattayo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chattayo-Prefix.pch"; sourceTree = "<group>"; };
+		84ECF63D16D25E1D004ABB0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84ECF63E16D25E1D004ABB0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84ECF64016D25E1D004ABB0A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		84ECF64216D25E1D004ABB0A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		84ECF64416D25E1D004ABB0A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		84ECF64716D25E1D004ABB0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		84ECF64916D25E1D004ABB0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84ECF64A16D25E1D004ABB0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84ECF62816D25E1D004ABB0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ECF62F16D25E1D004ABB0A /* UIKit.framework in Frameworks */,
+				84ECF63116D25E1D004ABB0A /* Foundation.framework in Frameworks */,
+				84ECF63316D25E1D004ABB0A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84ECF62216D25E1D004ABB0A = {
+			isa = PBXGroup;
+			children = (
+				84ECF63416D25E1D004ABB0A /* Chattayo */,
+				84ECF62D16D25E1D004ABB0A /* Frameworks */,
+				84ECF62C16D25E1D004ABB0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84ECF62C16D25E1D004ABB0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84ECF62B16D25E1D004ABB0A /* Chattayo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84ECF62D16D25E1D004ABB0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84ECF62E16D25E1D004ABB0A /* UIKit.framework */,
+				84ECF63016D25E1D004ABB0A /* Foundation.framework */,
+				84ECF63216D25E1D004ABB0A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84ECF63416D25E1D004ABB0A /* Chattayo */ = {
+			isa = PBXGroup;
+			children = (
+				84ECF63D16D25E1D004ABB0A /* AppDelegate.h */,
+				84ECF63E16D25E1D004ABB0A /* AppDelegate.m */,
+				84ECF64616D25E1D004ABB0A /* MainStoryboard.storyboard */,
+				84ECF64916D25E1D004ABB0A /* ViewController.h */,
+				84ECF64A16D25E1D004ABB0A /* ViewController.m */,
+				84ECF63516D25E1D004ABB0A /* Supporting Files */,
+			);
+			path = Chattayo;
+			sourceTree = "<group>";
+		};
+		84ECF63516D25E1D004ABB0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84ECF63616D25E1D004ABB0A /* Chattayo-Info.plist */,
+				84ECF63716D25E1D004ABB0A /* InfoPlist.strings */,
+				84ECF63A16D25E1D004ABB0A /* main.m */,
+				84ECF63C16D25E1D004ABB0A /* Chattayo-Prefix.pch */,
+				84ECF64016D25E1D004ABB0A /* Default.png */,
+				84ECF64216D25E1D004ABB0A /* Default@2x.png */,
+				84ECF64416D25E1D004ABB0A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84ECF62A16D25E1D004ABB0A /* Chattayo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84ECF64E16D25E1D004ABB0A /* Build configuration list for PBXNativeTarget "Chattayo" */;
+			buildPhases = (
+				84ECF62716D25E1D004ABB0A /* Sources */,
+				84ECF62816D25E1D004ABB0A /* Frameworks */,
+				84ECF62916D25E1D004ABB0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chattayo;
+			productName = Chattayo;
+			productReference = 84ECF62B16D25E1D004ABB0A /* Chattayo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84ECF62316D25E1D004ABB0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Amigo;
+			};
+			buildConfigurationList = 84ECF62616D25E1D004ABB0A /* Build configuration list for PBXProject "Chattayo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84ECF62216D25E1D004ABB0A;
+			productRefGroup = 84ECF62C16D25E1D004ABB0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84ECF62A16D25E1D004ABB0A /* Chattayo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84ECF62916D25E1D004ABB0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ECF63916D25E1D004ABB0A /* InfoPlist.strings in Resources */,
+				84ECF64116D25E1D004ABB0A /* Default.png in Resources */,
+				84ECF64316D25E1D004ABB0A /* Default@2x.png in Resources */,
+				84ECF64516D25E1D004ABB0A /* Default-568h@2x.png in Resources */,
+				84ECF64816D25E1D004ABB0A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84ECF62716D25E1D004ABB0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ECF63B16D25E1D004ABB0A /* main.m in Sources */,
+				84ECF63F16D25E1D004ABB0A /* AppDelegate.m in Sources */,
+				84ECF64B16D25E1D004ABB0A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84ECF63716D25E1D004ABB0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84ECF63816D25E1D004ABB0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84ECF64616D25E1D004ABB0A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84ECF64716D25E1D004ABB0A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84ECF64C16D25E1D004ABB0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84ECF64D16D25E1D004ABB0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84ECF64F16D25E1D004ABB0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chattayo/Chattayo-Prefix.pch";
+				INFOPLIST_FILE = "Chattayo/Chattayo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84ECF65016D25E1D004ABB0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chattayo/Chattayo-Prefix.pch";
+				INFOPLIST_FILE = "Chattayo/Chattayo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84ECF62616D25E1D004ABB0A /* Build configuration list for PBXProject "Chattayo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ECF64C16D25E1D004ABB0A /* Debug */,
+				84ECF64D16D25E1D004ABB0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84ECF64E16D25E1D004ABB0A /* Build configuration list for PBXNativeTarget "Chattayo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ECF64F16D25E1D004ABB0A /* Debug */,
+				84ECF65016D25E1D004ABB0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84ECF62316D25E1D004ABB0A /* Project object */;
+}
